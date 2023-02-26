@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj FW -o D:/FW/D_NPC.tfi -lib work D:/FW//NPC.v -module D_NPC -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

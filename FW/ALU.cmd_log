@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj FW -o D:/FW/ALU.tfi -lib work D:/FW//ALU.v -module ALU -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

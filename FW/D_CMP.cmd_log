@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj FW -o D:/FW/D_CMP.tfi -lib work D:/FW//CMP.v -module D_CMP -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+GRF instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .W_RegWrite(W_RegWrite), 
+    .D_GRF_A1(D_GRF_A1), 
+    .D_GRF_A2(D_GRF_A2), 
+    .W_GRF_A3(W_GRF_A3), 
+    .W_GRF_WD(W_GRF_WD), 
+    .W_PC(W_PC), 
+    .D_GRF_RD1(D_GRF_RD1), 
+    .D_GRF_RD2(D_GRF_RD2)
+    );
+
+

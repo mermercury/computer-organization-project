@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+EM_REG EM_REG (
+    .clk(clk), 
+    .reset(reset), 
+    .E_instr(E_instr), 
+    .E_PC(E_PC), 
+    .E_GRF_RD2(E_GRF_RD2), 
+    .E_ALU_res(E_ALU_res), 
+    .E_EXT_imm32(E_EXT_imm32), 
+    .M_instr(M_instr), 
+    .M_PC(M_PC), 
+    .M_GRF_RD2(M_GRF_RD2), 
+    .M_ALU_res(M_ALU_res), 
+    .M_EXT_imm32(M_EXT_imm32)
+    );
+
+

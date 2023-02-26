@@ -1,0 +1,20 @@
+
+
+
+// Instantiate the module
+DE_REG DE_REG (
+    .clk(clk), 
+    .reset(reset), 
+    .D_instr(D_instr), 
+    .D_PC(D_PC), 
+    .D_GRF_RD1(D_GRF_RD1), 
+    .D_GRF_RD2(D_GRF_RD2), 
+    .D_EXT_imm32(D_EXT_imm32), 
+    .E_instr(E_instr), 
+    .E_PC(E_PC), 
+    .E_GRF_RD1(E_GRF_RD1), 
+    .E_GRF_RD2(E_GRF_RD2), 
+    .E_EXT_imm32(E_EXT_imm32)
+    );
+
+

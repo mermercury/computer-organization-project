@@ -1,0 +1,24 @@
+
+
+
+// Instantiate the module
+STOP STOP (
+    .D_branch(D_branch), 
+    .D_cal_r(D_cal_r), 
+    .D_cal_i(D_cal_i), 
+    .D_j_to_reg(D_j_to_reg), 
+    .D_load(D_load), 
+    .D_store(D_store), 
+    .E_cal_r(E_cal_r), 
+    .E_cal_i(E_cal_i), 
+    .E_load(E_load), 
+    .E_j_to_reg(E_j_to_reg), 
+    .M_load(M_load), 
+    .D_rs_addr(D_rs_addr), 
+    .D_rt_addr(D_rt_addr), 
+    .E_RegDst(E_RegDst), 
+    .M_RegDst(M_RegDst), 
+    .STALL(STALL)
+    );
+
+

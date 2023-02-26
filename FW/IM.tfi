@@ -1,0 +1,10 @@
+
+
+
+// Instantiate the module
+IM im (
+    .F_PC(F_PC), 
+    .F_IM_instr(F_IM_instr)
+    );
+
+

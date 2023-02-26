@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+CMP cmp (
+    .D_CMP_A(D_CMP_A), 
+    .D_CMP_B(D_CMP_B), 
+    .D_CMPop(D_CMPop), 
+    .D_cmp_sig(D_cmp_sig)
+    );
+
+

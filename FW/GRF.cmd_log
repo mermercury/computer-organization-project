@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj FW -o D:/FW/GRF.tfi -lib work D:/FW//GRF.v -module GRF -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

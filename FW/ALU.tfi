@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+ALU alu (
+    .a(a), 
+    .b(b), 
+    .alu_opcode(alu_opcode), 
+    .result(result)
+    );
+
+

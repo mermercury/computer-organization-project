@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj FW -o D:/FW/.tfi -lib work D:/FW//MUX4to1.v -module "" -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

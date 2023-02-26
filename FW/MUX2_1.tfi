@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+MUX2_1 alu_b (
+    .in_0(in_0), 
+    .in_1(in_1), 
+    .out(out), 
+    .signal(signal)
+    );
+
+

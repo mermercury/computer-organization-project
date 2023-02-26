@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+FD_REG instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .FD_REG_en(FD_REG_en), 
+    .F_instr(F_instr), 
+    .F_PC(F_PC), 
+    .D_instr(D_instr), 
+    .D_PC(D_PC)
+    );
+
+

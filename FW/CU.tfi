@@ -1,0 +1,36 @@
+
+
+
+// Instantiate the module
+CU instance_name (
+    .instr(instr), 
+    .imm26(imm26), 
+    .imm16(imm16), 
+    .rd_addr(rd_addr), 
+    .rt_addr(rt_addr), 
+    .rs_addr(rs_addr), 
+    .shamt(shamt), 
+    .cal_r(cal_r), 
+    .cal_i(cal_i), 
+    .load(load), 
+    .store(store), 
+    .branch(branch), 
+    .j_to_reg(j_to_reg), 
+    .j_to_addr(j_to_addr), 
+    .j_and_link(j_and_link), 
+    .Lui(Lui), 
+    .ALUSrc_A(ALUSrc_A), 
+    .ALUSrc_B(ALUSrc_B), 
+    .MemWrite(MemWrite), 
+    .ALUControl(ALUControl), 
+    .MemtoReg(MemtoReg), 
+    .RegWrite(RegWrite), 
+    .RegDst(RegDst), 
+    .NextPCType(NextPCType), 
+    .Ext(Ext), 
+    .D_CMPop(D_CMPop), 
+    .load_sel(load_sel), 
+    .store_sel(store_sel)
+    );
+
+

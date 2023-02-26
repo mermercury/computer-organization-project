@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj FW -o D:/FW/MUX2_1.tfi -lib work D:/FW//MUX2to1.v -module MUX2_1 -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

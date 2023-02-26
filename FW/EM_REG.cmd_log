@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj FW -o D:/FW/EM_REG.tfi -lib work D:/FW//EM_REG.v -module EM_REG -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj FW -o D:/FW/EM_REG.tfi -lib work D:/FW//EM_REG.v -module EM_REG -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

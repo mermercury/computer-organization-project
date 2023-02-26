@@ -1,0 +1,11 @@
+
+
+
+// Instantiate the module
+NPC npc (
+    .D_PC(D_PC), 
+    .D_instr(D_instr), 
+    .D_NPC(D_NPC)
+    );
+
+

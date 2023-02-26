@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+DM dm (
+    .clk(clk), 
+    .reset(reset), 
+    .M_MemWrite(M_MemWrite), 
+    .M_DM_A(M_DM_A), 
+    .M_DM_WD(M_DM_WD), 
+    .M_PC(M_PC), 
+    .M_DM_out(M_DM_out)
+    );
+
+

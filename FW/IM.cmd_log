@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj FW -o D:/FW/IM.tfi -lib work D:/FW//IM.v -module IM -template D:/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

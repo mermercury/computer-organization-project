@@ -1,0 +1,54 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -o "D:/FW/mips_tb_isim_beh.exe" -prj "D:/FW/mips_tb_beh.prj" "work.mips_tb" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 16
+Turning on mult-threading, number of parallel sub-compilation jobs: 32 
+Determining compilation order of HDL files
+Analyzing Verilog file "D:/FW/STOP.v" into library work
+Analyzing Verilog file "D:/FW/PC.v" into library work
+Analyzing Verilog file "D:/FW/NPC.v" into library work
+Analyzing Verilog file "D:/FW/MW_REG.v" into library work
+Analyzing Verilog file "D:/FW/MUX4to1.v" into library work
+Analyzing Verilog file "D:/FW/IM.v" into library work
+Analyzing Verilog file "D:/FW/GRF.v" into library work
+Analyzing Verilog file "D:/FW/FD_REG.v" into library work
+Analyzing Verilog file "D:/FW/EXT.v" into library work
+Analyzing Verilog file "D:/FW/EM_REG.v" into library work
+Analyzing Verilog file "D:/FW/DM.v" into library work
+Analyzing Verilog file "D:/FW/DE_REG.v" into library work
+Analyzing Verilog file "D:/FW/CU.v" into library work
+Analyzing Verilog file "D:/FW/CMP.v" into library work
+Analyzing Verilog file "D:/FW/ALU.v" into library work
+Analyzing Verilog file "D:/FW/mips.v" into library work
+Analyzing Verilog file "D:/FW/mips_tb.v" into library work
+Analyzing Verilog file "D:/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+WARNING:HDLCompiler:1016 - "D:/FW/mips.v" Line 93: Port rd_addr is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/FW/mips.v" Line 219: Port imm26 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/FW/mips.v" Line 278: Port imm26 is not connected to this instance
+WARNING:HDLCompiler:1016 - "D:/FW/mips.v" Line 332: Port imm26 is not connected to this instance
+Completed static elaboration
+Fuse Memory Usage: 159692 KB
+Fuse CPU Usage: 483 ms
+Compiling module PC
+Compiling module F_IM
+Compiling module FD_REG
+Compiling module CU
+Compiling module D_GRF
+Compiling module DE_REG
+Compiling module D_EXT
+Compiling module D_CMP
+Compiling module D_NPC
+Compiling module STOP
+Compiling module MUX4to1
+Compiling module E_ALU
+Compiling module EM_REG
+Compiling module M_DM
+Compiling module MW_REG
+Compiling module mips
+Compiling module mips_tb
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Compiled 18 Verilog Units
+Built simulation executable D:/FW/mips_tb_isim_beh.exe
+Fuse Memory Usage: 169312 KB
+Fuse CPU Usage: 811 ms

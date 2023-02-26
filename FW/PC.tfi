@@ -1,0 +1,13 @@
+
+
+
+// Instantiate the module
+PC instance_name (
+    .clk(clk), 
+    .reset(reset), 
+    .PC_en(PC_en), 
+    .D_NPC(D_NPC), 
+    .F_PC(F_PC)
+    );
+
+

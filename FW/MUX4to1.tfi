@@ -1,0 +1,14 @@
+
+
+
+// Instantiate the module
+MUX4to1 E_ (
+    .in_0(in_0), 
+    .in_1(in_1), 
+    .in_2(in_2), 
+    .in_3(in_3), 
+    .sig(sig), 
+    .out(out)
+    );
+
+
